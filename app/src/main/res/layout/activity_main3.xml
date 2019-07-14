@@ -13,8 +13,10 @@
 
         <ImageView
             android:id="@+id/imageView3"
-            android:layout_width="400dp"
+            android:layout_width="match_parent"
             android:layout_height="191dp"
+            android:paddingTop="20dp"
+
             app:srcCompat="@drawable/jik" />
 
         <TextView
@@ -46,7 +48,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="308dp"
+        android:layout_marginBottom="310dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
         android:text="Track: Android"
         android:textSize="15sp"
         android:textStyle="bold" />
@@ -56,7 +60,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="266dp"
+        android:layout_marginBottom="270dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
         android:text="Country: Nigeria"
         android:textSize="15sp"
         android:textStyle="bold" />
@@ -66,7 +72,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="224dp"
+        android:layout_marginBottom="230dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
         android:text="E-mail: ayomilotunde02@gmail.com"
         android:textSize="15sp"
         android:textStyle="bold" />
@@ -76,7 +84,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="185dp"
+        android:layout_marginBottom="190dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
         android:text="Phone Number: 2348067700187"
         android:textSize="15sp"
         android:textStyle="bold" />
@@ -86,7 +96,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
-        android:layout_marginBottom="138dp"
+        android:layout_marginBottom="150dp"
+        android:paddingStart="16dp"
+        android:paddingEnd="16dp"
         android:text="Slack Name: @ayomi"
         android:textSize="15sp"
         android:textStyle="bold" />
