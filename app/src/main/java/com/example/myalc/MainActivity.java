@@ -19,12 +19,12 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void AboutAlc(View view) {
-        Intent aboutAlc = new Intent(MainActivity.this, Main2Activity.class);
+        Intent aboutAlc = new Intent(MainActivity.this, About_ALC_mainactivity.class);
         startActivity(aboutAlc);
     }
 
     public void MyProfile(View view) {
-        Intent myprofile = new Intent(MainActivity.this, Main3Activity.class);
+        Intent myprofile = new Intent(MainActivity.this, My_Profile_MainActivity.class);
         startActivity(myprofile);
     }
 }
